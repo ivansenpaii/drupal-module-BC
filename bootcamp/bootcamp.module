@@ -1,0 +1,6 @@
+<?php
+
+function template_preprocess_form_thanks($variables){
+  $thanks = \Drupal::service('thanks');
+  $variables = $thanks;
+}
